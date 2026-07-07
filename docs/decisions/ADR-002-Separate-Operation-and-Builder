@@ -1,0 +1,49 @@
+# ADR-002 — Separate Operation and Builder
+
+## Status
+
+Accepted
+
+## Date
+
+2026-07-01
+
+## Context
+
+The daily work environment (Windows) and the development environment (macOS) serve different purposes.
+
+Mixing development tools into the work environment increases maintenance complexity and distracts from daily operations.
+
+## Decision
+
+Windows is designated as the Operation environment.
+
+Responsibilities include:
+
+- Enterprise WeChat
+- Feishu
+- Daily work
+- Atlas usage
+
+macOS is designated as the Builder environment.
+
+Responsibilities include:
+
+- GitHub
+- Python
+- MCP
+- VS Code
+- Atlas development
+- Personal projects
+
+## Consequences
+
+### Positive
+
+- Clear separation of responsibilities.
+- Stable work environment.
+- Flexible development environment.
+
+### Negative
+
+- Atlas synchronization will be postponed until the workflow is proven effective.
