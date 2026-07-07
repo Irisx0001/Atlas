@@ -1,0 +1,37 @@
+# ADR-001 — Atlas Starts as a New System
+
+## Status
+
+Accepted
+
+## Date
+
+2026-07-01
+
+## Context
+
+An existing Obsidian vault already contains historical notes.
+
+Migrating all legacy content into Atlas would introduce unnecessary complexity, delay adoption, and mix historical structures with a new knowledge system.
+
+## Decision
+
+Atlas starts as a brand-new Obsidian Vault.
+
+No legacy notes will be migrated.
+
+Existing notes remain in the previous vault and may be imported manually only when they become relevant.
+
+## Consequences
+
+### Positive
+
+- Clean information architecture.
+- Fast project start.
+- No migration burden.
+- Atlas evolves from Day 0 with consistent principles.
+
+### Negative
+
+- Historical knowledge is temporarily separated.
+- Some useful notes may need manual migration later.
