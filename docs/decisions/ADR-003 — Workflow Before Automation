@@ -1,0 +1,40 @@
+# ADR-003 — Workflow Before Automation
+
+## Status
+
+Accepted
+
+## Date
+
+2026-07-01
+
+## Context
+
+Many personal knowledge systems fail because they prioritize tools and automation before validating the underlying workflow.
+
+Automation without a stable workflow increases complexity without delivering long-term value.
+
+## Decision
+
+Atlas will always validate a manual workflow before introducing automation.
+
+The implementation order is:
+
+1. Capture
+2. Organize
+3. Review
+4. Automate
+
+Features such as MCP, Dataview, Templater, and custom Agents will only be introduced after the corresponding manual workflow has proven useful.
+
+## Consequences
+
+### Positive
+
+- Simpler onboarding.
+- Better long-term architecture.
+- Automation serves the workflow instead of defining it.
+
+### Negative
+
+- More manual work during the early stages.
