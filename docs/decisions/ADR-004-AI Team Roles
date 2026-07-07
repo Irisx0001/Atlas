@@ -1,0 +1,60 @@
+# ADR-004 — AI Team Roles
+
+## Status
+
+Accepted
+
+## Date
+
+2026-07-01
+
+## Context
+
+Different AI models demonstrate different strengths.
+
+Rather than expecting one model to perform every task, Atlas adopts a role-based collaboration model.
+
+## Decision
+
+Atlas defines three primary AI roles.
+
+### Gemini — Vision Partner
+
+Responsible for:
+
+- Brainstorming
+- Exploring possibilities
+- Challenging assumptions
+- Generating new directions
+
+### ChatGPT — System Architect
+
+Responsible for:
+
+- System architecture
+- Workflow design
+- Design principles
+- Long-term planning
+- Decision making
+
+### Claude — Engineering Lead
+
+Responsible for:
+
+- Implementation
+- Code review
+- Prompt engineering
+- Technical optimization
+- Debugging
+
+## Consequences
+
+### Positive
+
+- Clear responsibilities.
+- Better utilization of each model's strengths.
+- Reduced context switching.
+
+### Principle
+
+Assign responsibilities, not prompts.
