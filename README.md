@@ -86,3 +86,8 @@ No migration.
 No legacy burden.
 
 Atlas grows from today.
+## Decision Records
+
+Every major design choice in Atlas is documented as an Atlas Decision Record (ADR).
+
+This repository preserves not only the code, but also the reasoning behind every important architectural decision.
