@@ -1,0 +1,150 @@
+# Atlas Information Standard
+
+## Purpose
+
+The Inbox is the single entry point of Atlas.
+
+Atlas is designed to capture work-related information with minimal friction before AI transforms it into knowledge, insights, decisions, and actions.
+
+**Principle**
+
+> Capture First. Organize Later.
+
+---
+
+## Information Categories
+
+Every item captured in the Inbox belongs to one of the following categories.
+
+### Task
+
+Work that requires action.
+
+Examples:
+
+- Submit quotation
+- Follow up with client
+- Complete internal request
+
+---
+
+### Update
+
+Important changes or new information.
+
+Including:
+
+- Client profile updates
+- Business updates
+- Market changes
+- Policy changes
+
+---
+
+### Idea
+
+Thoughts, inspiration, or potential improvements.
+
+Examples:
+
+- New workflow
+- Product ideas
+- AI automation ideas
+
+---
+
+### Reference
+
+Materials worth keeping for future use.
+
+Examples:
+
+- PDF
+- Excel
+- Documents
+- AI outputs
+- Articles
+
+---
+
+### Question
+
+Questions that require future investigation or discussion.
+
+Examples:
+
+- Why was the renewal delayed?
+- Can this workflow be automated?
+
+---
+
+## Capture Rules
+
+Capture only information that is at least one of the following:
+
+- Actionable
+- Valuable
+- Insightful
+
+Otherwise, process it immediately and do not store it in Atlas.
+
+---
+
+## Information Sources
+
+Typical sources include:
+
+- Enterprise WeChat (manually selected only)
+- Feishu
+- Email
+- GPT
+- Claude
+- Gemini
+- Documents
+- Personal thoughts
+
+SCRM remains the source of truth and is not synchronized with Atlas.
+
+---
+
+## Task Lifecycle
+
+Tasks are not intended to stay in the Inbox permanently.
+
+Workflow:
+
+Capture
+
+↓
+
+Inbox
+
+↓
+
+AI Review
+
+↓
+
+Task Buffer
+
+↓
+
+Temporary Tasks / Long-term Tasks
+
+↓
+
+Completed
+
+↓
+
+Archive
+
+---
+
+## Design Goal
+
+Atlas is designed for real work.
+
+The priority is efficiency, not perfection.
+
+Information should be captured with the lowest possible friction, while AI is responsible for organizing, analyzing, and extracting value afterward.
